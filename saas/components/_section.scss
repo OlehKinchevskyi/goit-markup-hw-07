@@ -1,0 +1,31 @@
+.section {
+  margin-bottom: 94px;
+
+  &-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+  &-title.feature {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  &.advantage {
+    padding-top: 0;
+  }
+  &.team {
+    background-color: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
